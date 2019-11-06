@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RoomPokemon</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvTituloNombre">Nombre:</string>
+    <string name="tvTituloTipo">Tipo:</string>
+    <string name="etNombre">Inserte el nombre</string>
+    <string name="etTpio">Inserte el tipo</string>
+    <string name="btInsertar">insertar</string>
+    <string name="btEditar">editar</string>
+    <string name="btBorrar">borrar</string>
+    <string name="ordenaTipo">Ordenar por tipo</string>
+    <string name="ordenaNombre">Ordernar por nombre</string>
+    <string name="si">SI</string>
+    <string name="no">NO</string>
+</resources>

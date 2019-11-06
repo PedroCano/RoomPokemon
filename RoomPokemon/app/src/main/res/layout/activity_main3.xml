@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <Button
+        android:id="@+id/btEdita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btEditar"
+        app:layout_constraintEnd_toStartOf="@+id/btBorra"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btBorra" />
+
+    <Button
+        android:id="@+id/btBorra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/btBorrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btEdita"
+        app:layout_constraintTop_toBottomOf="@+id/etTipo" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/etNombre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/ivImagen"
+        app:layout_constraintStart_toStartOf="@+id/ivImagen"
+        app:layout_constraintTop_toBottomOf="@+id/ivImagen" />
+
+    <EditText
+        android:id="@+id/etTipo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/etTpio"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/ivImagen"
+        app:layout_constraintStart_toStartOf="@+id/ivImagen"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+
+    <ImageView
+        android:id="@+id/ivImagen"
+        android:layout_width="263dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/noimage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
